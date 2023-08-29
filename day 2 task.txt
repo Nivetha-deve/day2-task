@@ -1,0 +1,19 @@
+DIFFERENCE BETWEEN WINDOW AND DOCUMENT:
+       
+              WINDOW                                                                 DOCUMENT
+   
+   1)The window is at a root/top level at the Javascript             1) A document is an object inside the window object and we
+       object hierarchy.It is a global/root object in                          use a document object for manipulation inside the document.
+       javascript and it is the root object in javascript and 
+       it is the root object of the Document object model(DOM).
+    
+    2) Syntax:                                                                           2) Syntax:
+              window.propertyname;                                                        document.propertyname
+
+    3)The properties related to it are stored in                            3)The properties related to it are stored in the document object.  
+       the window object. 
+    
+    4)We can  access document objects properties                  4)We can not acess windows objects properties inside the document.
+       inside the window.
+
+    5)It is an object of browser.                                                    5)It is an object of window.                                                            
